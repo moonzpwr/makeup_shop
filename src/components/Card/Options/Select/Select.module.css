@@ -1,0 +1,91 @@
+.container {
+  width: 258px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+}
+
+.containerOpen {
+  width: 258px;
+  background-color: #fff;
+  padding: 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.arrow {
+  position: absolute;
+  right: 290px;
+  pointer-events: none;
+}
+
+.backdrop {
+  position: absolute;
+  top: 497px;
+  border-radius: 0px 0px 10px 10px;
+  width: 258px;
+  height: 124px;
+  background-color: #fff;
+  overflow: auto;
+}
+
+.backdrop::-webkit-scrollbar {
+  width: 3px;
+}
+.backdrop::-webkit-scrollbar-thumb {
+  background: #e0e9f2;
+  margin-right: 5px;
+  border-radius: 15px;
+}
+
+.colorList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.colorList li {
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 221px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.16;
+  color: #2c2c2c;
+}
+.colorList li:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.colorList li:hover {
+  background-color: #f3f8fc;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.enter {
+  opacity: 0;
+  transform: translateX(-50%);
+}
+.enterActive {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 250ms ease;
+}
+
+.exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.exitActive {
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: all 250ms ease;
+}

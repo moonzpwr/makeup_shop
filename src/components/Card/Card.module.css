@@ -1,0 +1,89 @@
+.container {
+  position: relative;
+  width: 573px;
+  padding: 45px;
+  border-radius: 25px;
+  background-color: #f8fafc;
+  transition: all 250ms linear;
+}
+
+.container:not(:last-child) {
+  margin-right: 34px;
+}
+
+.container:hover {
+  box-shadow: 0px 4px 45px #c3d4e4;
+}
+
+.container h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #2c2c2c;
+  margin-bottom: 10px;
+}
+
+.container p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  margin-bottom: 20px;
+}
+
+.labelNew {
+  position: absolute;
+
+  top: 50px;
+  left: 50px;
+  padding: 5px 20px;
+  background: linear-gradient(261.65deg, #efbb37 -3.95%, #cf9e1f 109.44%);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.btn {
+  position: absolute;
+  top: 43px;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  background-color: #fff;
+  transition: all 250ms linear;
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 8px #bdd0e3;
+}
+
+.vector {
+  fill: #003466;
+  pointer-events: none;
+}
+
+.checkIcon {
+  position: absolute;
+  fill: #87ac33;
+}
+
+.mainImage {
+  border-radius: 25px;
+  width: 256px;
+  height: 261px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}

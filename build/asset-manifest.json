@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/makeup_shop/static/css/main.354f6678.chunk.css",
+    "main.js": "/makeup_shop/static/js/main.299ac59e.chunk.js",
+    "main.js.map": "/makeup_shop/static/js/main.299ac59e.chunk.js.map",
+    "runtime-main.js": "/makeup_shop/static/js/runtime-main.30a15ddc.js",
+    "runtime-main.js.map": "/makeup_shop/static/js/runtime-main.30a15ddc.js.map",
+    "static/js/2.19701bfb.chunk.js": "/makeup_shop/static/js/2.19701bfb.chunk.js",
+    "static/js/2.19701bfb.chunk.js.map": "/makeup_shop/static/js/2.19701bfb.chunk.js.map",
+    "index.html": "/makeup_shop/index.html",
+    "static/css/main.354f6678.chunk.css.map": "/makeup_shop/static/css/main.354f6678.chunk.css.map",
+    "static/js/2.19701bfb.chunk.js.LICENSE.txt": "/makeup_shop/static/js/2.19701bfb.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/makeup_shop/static/media/font.32f93875.otf",
+    "static/media/shamp1.30627067.png": "/makeup_shop/static/media/shamp1.30627067.png",
+    "static/media/shamp1alt.5796b281.png": "/makeup_shop/static/media/shamp1alt.5796b281.png",
+    "static/media/shamp2.fa33f666.png": "/makeup_shop/static/media/shamp2.fa33f666.png",
+    "static/media/shamp2alt.33e78324.png": "/makeup_shop/static/media/shamp2alt.33e78324.png",
+    "static/media/shamp3.7234034a.png": "/makeup_shop/static/media/shamp3.7234034a.png",
+    "static/media/shamp3alt.5c4e3304.png": "/makeup_shop/static/media/shamp3alt.5c4e3304.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.30a15ddc.js",
+    "static/js/2.19701bfb.chunk.js",
+    "static/css/main.354f6678.chunk.css",
+    "static/js/main.299ac59e.chunk.js"
+  ]
+}

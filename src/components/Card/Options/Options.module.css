@@ -1,0 +1,80 @@
+.buyBtn {
+  width: 300px;
+  background: linear-gradient(261.65deg, #efbb37 -3.95%, #cf9e1f 109.44%);
+  border-radius: 30px;
+  padding: 9px 0;
+  border: none;
+  cursor: pointer;
+
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.16;
+  color: #ffffff;
+  transition: all 250ms linear;
+}
+
+.buyBtn:hover {
+  background: linear-gradient(261.65deg, #e9b32c -3.95%, #bf911a 109.44%);
+  box-shadow: 0px 0px 20px #e8cb80;
+}
+
+.buyBtn:active {
+  background: linear-gradient(261.65deg, #ffd773 -3.95%, #e2b645 109.44%);
+  box-shadow: 0px 0px 20px #e8cb80;
+}
+
+.counter {
+  display: flex;
+  justify-content: space-between;
+  background: #e2e9f0;
+  border-radius: 30px;
+  width: 92px;
+  padding: 8px 15px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2c2c2c;
+  transition: all 250ms linear;
+}
+
+.counter:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.decrement,
+.increment {
+  border: none;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2c2c2c;
+}
+
+.priseContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.priseContainer p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.16;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+}
+
+.buyContainer {
+  display: flex;
+  justify-content: space-between;
+}
